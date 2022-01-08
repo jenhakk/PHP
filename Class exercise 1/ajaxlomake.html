@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax-ohjelma</title>
+</head>
+<body>
+    <h2>Syötä tiedot</h2>
+<form>
+    <label for='nimi'>Nimi:</label><br>
+    <input id='nimi' type='text' name='nimi' value=''><br><br>
+    <label for='postinro'>Postinumero:</label><br>
+    <input id='postinro' type='text' name='postinro' value=''><br><br>
+    <label for='postitmp'>Postitoimipaikka:</label><br>
+    <input id='postitmp' type='text' name='postitmp' value=''><br><br>
+</form>
+
+
+<button name='nappi' id='nappi'>Lähetä tiedot</button>
+
+<p id='tulos'>Tähän tulee tulos</p>
+
+<script>
+    $(document).ready(function(){
+      $("#nappi").click(function(){
+        $.post("ajax.php",
+        {
+          nimi: $("#nimi").val(),
+          postinro: $("#postinro").val(),
+          postitmp: $("#postitmp").val()
+        },
+        function(data,status){
+          $("#tulos").html(data);
+
+      	});
+	});
+    });
+</script>	
+
+
+</body>
+</html>

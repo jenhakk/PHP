@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalalomake</title>
+
+<!--funktio jolla otetaan vastaan lomakkeen tiedot ja muutetaan ne json-lauseeksi-->
+    <script>
+    function sendData(form){
+        var kala=new Object();
+        kala.laji=form.laji.value;
+        kala.pituus=form.pituus.value;
+        kala.paino=form.paino.value;
+        
+        var x=JSON.stringify(kala);
+        
+        xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("tulos").innerHTML = this.responseText;
+	    document.getElementById("fishform").reset();
+          }
+        };
+        xmlhttp.open("POST", "naytatiedot.php", true);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xmlhttp.send("kala=" + x);	
+    }
+        </script> 
+        
+    
+</head>
+<body>
+    <h2>Syötä kalan tiedot</h2>
+<form id="fishform">
+    <label for='laji'>Kalalaji</label><br>
+    <input id='laji' type='text' name='laji' value=''><br><br>
+    <label for='pituus'>Pituus (cm):</label><br>
+    <input id='pituus' type='text' name='pituus' value=''><br><br>
+    <label for='paino'>Paino (g):</label><br>
+    <input id='paino' type='text' name='paino' value=''><br><br>
+    <input type='button' name='ok' value='OK' onclick='sendData(this.form);'>
+</form>
+
+<p id='tulos' style="font-weight: bold;">Onnistuiko tallennus?</p>
+
+    
+</body>
+</html>

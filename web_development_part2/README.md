@@ -1,6 +1,8 @@
 # Web development project part 2
 
-This was the second exercise where we utilized same site we did in [webvelopment_group3](https://github.com/jenhakk/webdevelopment_group3) project. The task was to program an element that utilizes database in the website. We kind of overdid this an ended up doing five different elements.
+This was the second exercise where we utilized same site we did in [webvelopment_group3](https://github.com/jenhakk/webdevelopment_group3) project. Third part was to recreate the first site in Wordpress. That site isn't unfortunately available. 
+
+The task was to program an element that utilizes database in the website. We kind of overdid this an ended up doing five different elements.
 
 **Elements were:**
 

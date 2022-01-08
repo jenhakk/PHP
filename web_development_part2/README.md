@@ -43,7 +43,8 @@ Project ended up expanding quite lot but we were happy about the result. We lear
 - editadmin.php
 
 
-*Secret folder includes admin part*
+
+*Secret folder contains admin files*
 
 **Grade: 5/5**
 

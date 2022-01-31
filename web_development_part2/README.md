@@ -4,12 +4,7 @@ This was the second exercise where we utilized same site we did in [webvelopment
 
 The task was to program an element that utilizes database in the website. We kind of overdid this an ended up doing five different elements.
 
-My part was to create registration and login for the user and admin. It is executed using forms, JSON, SQL and sessions.
-
-
-
-
-
+My part was to create registration and login for the user and admin. It is executed using forms, AJAX, JSON, JQuery and SQL.
 
 **Elements were:**
 

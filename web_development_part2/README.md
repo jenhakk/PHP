@@ -20,7 +20,7 @@ My part was to create registration and login for the user and admin. It is execu
 
 Project ended up expanding quite lot but we were happy about the result. We learned a lot and had good expression about backend programming. Unfortunately GitHub pages only support static websites so the site isn't usable here (except for the html files).
 
-[Here is the front page of the site](http://shell.hamk.fi/~jenna20100/Projekti/web-development/index.html)
+[Here is the front page of the site](https://jenhakk.github.io/PHP/web_development_part2/index.html)
 
 **My files are:**
 

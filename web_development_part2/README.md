@@ -1,6 +1,7 @@
 # Web development project part 2
 
-<video src='https://youtu.be/MHJQuaD-ttQ'>Bistre tour</video>
+
+https://user-images.githubusercontent.com/75015030/152686472-0a0baf83-6020-427d-87fd-bda3f795dfdd.mp4
 
 This was the second exercise where we utilized same site we did in [webvelopment_group3](https://github.com/jenhakk/webdevelopment_group3) project. Third part was to recreate the first site in Wordpress. That site isn't unfortunately available. 
 

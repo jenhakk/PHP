@@ -18,7 +18,9 @@ My part was to create registration and login for the user and admin. It is execu
 
 - Take away system where customer can order take away
 
-Project ended up expanding quite lot but we were happy about the result. We learned a lot and had good expression about backend programming. Unfortunately GitHub pages only support static websites so the site isn't usable here (except for the html files) but I recorded a quick video of it you can see in the below.
+Project ended up expanding quite lot but we were happy about the result. We learned a lot and had good expression about backend programming. Unfortunately GitHub pages only support static websites so the site isn't usable here (except for the html files) but here is a quick video of it:
+
+https://user-images.githubusercontent.com/75015030/152686472-0a0baf83-6020-427d-87fd-bda3f795dfdd.mp4
 
 [Here is the front page of the site](https://jenhakk.github.io/PHP/web_development_part2/index.html)
 
@@ -52,4 +54,4 @@ Project ended up expanding quite lot but we were happy about the result. We lear
 
 **Grade: 5/5**
 
-https://user-images.githubusercontent.com/75015030/152686472-0a0baf83-6020-427d-87fd-bda3f795dfdd.mp4
+

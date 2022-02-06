@@ -1,6 +1,6 @@
 # Web development project part 2
 
-<video src='' width=180/>
+<video src='https://github.com/jenhakk/PHP/edit/main/web_development_part2/bistre_tour_uusi.mp4' width=180/>
 
 This was the second exercise where we utilized same site we did in [webvelopment_group3](https://github.com/jenhakk/webdevelopment_group3) project. Third part was to recreate the first site in Wordpress. That site isn't unfortunately available. 
 
